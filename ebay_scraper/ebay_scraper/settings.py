@@ -19,7 +19,7 @@ ADDONS = {}
 #USER_AGENT = "ebay_scraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Concurrency and throttling settings
 CONCURRENT_REQUESTS = 2
@@ -29,12 +29,6 @@ DOWNLOAD_DELAY = 2
 # Disable cookies (enabled by default)
 COOKIES_ENABLED = False
 
-FEEDS = {
-    "output/ebay_products.json": {
-        "format": "json",
-        "overwrite": True,
-    },
-}
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
 
